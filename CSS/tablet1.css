@@ -1,0 +1,9 @@
+.currency {
+    overflow: hidden;
+    justify-content: center;
+}
+
+.plans__container {
+    justify-content: center;
+    overflow: hidden;
+}

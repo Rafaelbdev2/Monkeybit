@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monkeybit</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./CSS/tablet1.css" media="(min-width:820px)">
+    <link rel="stylesheet" href="./CSS/tablet2.css" media="(min-width: 930px)">
+</head>
+<body>
+    <header>
+        <img src="./Assets/imgs/logo-header.svg" alt="Monkeybit logo">
+        <div class="header__title__container">
+            <h1>The next revolution in criptocurrency exchange.</h1>
+            <p>Monkeybit helps you to browse among the different prices and trendings.</p>
+            <a href="#plans" class="header__button">Explore our plans<span></span></a>
+        </div>
+
+    </header>
+    <main>
+        <section class="main__exchange__container">
+            <div class="backgroundimg"></div>
+            <div class="main__exchange__container__title">
+                <h2>We show all the exchanges rates</h2>
+                <p>We bring information in real time from the exchange houses and the world's most important coins.</p>
+            </div>
+            <section class="currency">
+                <div class="currency__table">
+                    <h3 class="currency_table__title">Monedas</h3>
+                    <div class="currency__table__container">
+                        <table>
+                            <tr>
+                                <td class="table__top__left">Bitcoin</td>
+                                <td class="table__top__right table--right">$8 <figure class="trending"> <img src="./Assets/Icons/trending-down 1.svg" alt="imagen tendencia baja"></figure> </td>
+                            </tr>
+                            <tr>
+                                <td>Ethereum</td>
+                                <td class="table--right">$5<figure class="trending"> <img src="./Assets/Icons/trending-up 1.svg" alt="imagen tendencia alta"></figure></td>
+                            </tr>
+                            <tr>
+                                <td>Ripple</td>
+                                <td class="table--right">$2.15<figure class="trending"> <img src="./Assets/Icons/trending-down 1.svg" alt="imagen tendencia baja"></figure> </td>
+                            </tr>
+                            <tr>
+                                <td class="table__bottom__left">Cardano</td>
+                                <td class="table__bottom__right table--right">$4.96<figure class="trending"> <img src="./Assets/Icons/trending-down 1.svg" alt="imagen tendencia baja"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="currency__table__date">
+                        <p><b>Updated</b> on: <script> document.write(new Date().toLocaleString());</script></p>
+                    </div>
+                </div>
+                <div class="currency__table">
+                    <h3 class="commission__title">Comisiones</h3>
+                    <div class="currency__table__container">
+                        <table>
+                            <tr>
+                                <td class="table__top__left">Bitrade</td>
+                                <td class="table__top__right table--right">$12.42</td>
+                            </tr>
+                            <tr>
+                                <td>Bitpred</td>
+                                <td class="table--right">$13.05</td>
+                            </tr>
+                            <tr>
+                                <td>Novadex</td>
+                                <td class="table--right">$12.15</td>
+                            </tr>
+                            <tr>
+                                <td class="table__bottom__left">Coinext</td>
+                                <td class="table__bottom__right table--right">$10.96</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="currency__table__date table2--date">
+                        <p><b>Updated</b> on: <script> document.write(new Date().toLocaleString());</script></p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="featured">
+            <div class="featured__logo">
+                <img src="./Assets/imgs/monkey.svg" alt="monkey logo">
+            </div>
+            <div class="featured__title">
+                <h2>We create a product with no comparison</h2>
+                <p>Trusty and designed for daily use</p>
+            </div>
+            <section class="featured__cards">
+                <article class="featured__info__box">
+                    <figure class="info_icon"><img src="./Assets/Icons/clock.svg" alt="Clock icon"> </figure>
+                    <h3>Real time</h3>
+                    <p>Our API collects information minute by minute about the rates which mostly determinate the behaviour</p>
+                </article>
+                <article class="featured__info__box">
+                    <figure class="info_icon"><img src="./Assets/Icons/eye.svg" alt="Eye icon"> </figure>
+                    <h3>There aren't hidden fees</h3>
+                    <p>Neither in the purchase nor in the exit moment, Monkeybit always shows you the real cost of what you're purchasing</p>
+                </article>
+                <article class="featured__info__box">
+                    <figure class="info_icon"><img src="./Assets/Icons/dollar-sign.svg" alt="dollar sign icon"> </figure>
+                    <h3>Compare coins</h3>
+                    <p>Compare all the prices and choose the most suitable for you</p>
+                </article>
+                <article class="featured__info__box">
+                    <figure class="info_icon"><img src="./Assets/Icons/check-circle.svg" alt="check circle icon"> </figure>
+                    <h3>Trusty information</h3>
+                    <p>Our info sources are 100%
+                        verified and we keep on auditing its content while they update</p>
+                </article> 
+            </section>
+        </section>
+        <section class="image-container">
+            <h2>Start today</h2>
+        </section>
+        <section id="plans" class="plans">
+            <div class="plans__title">
+                <h2>Choose the best plan for you</h2>
+                <p>Any plan gives you complete access to our platform</p>
+            </div>
+            <section class="plans__container">
+                <article class="plans__cards">
+                    <p class="plans__cards__reco">Recomended</p>
+                    <div class="plans__info">
+                        <h3 class="plans__info__title">Anual payment</h3>
+                        <p class="plans__info__price"><sup>$</sup>99</p>
+                        <p class="plans__info__saving">*You save $129 compared to monthly plan</p>
+                        <button class="plans__info__ca">Choose this<span></span></button>
+                    </div>
+                </article>
+                <article class="plans__cards">
+                    <p class="plans__cards__reco plans__cards__reco--blue">Basic</p>
+                    <div class="plans__info">
+                        <h3 class="plans__info__title">Monthly payment</h3>
+                        <p class="plans__info__price"><sup>$</sup>19</p>
+                        <p class="plans__info__saving">*Basic plan but with all the advantages</p>
+                        <button class="plans__info__ca">Choose this<span></span></button>
+                    </div>
+                </article>
+                <article class="plans__cards">
+                    <p class="plans__cards__reco plans__cards__reco--grey">Limited</p>
+                    <div class="plans__info">
+                        <h3 class="plans__info__title">Lifetime</h3>
+                        <p class="plans__info__price"><sup>$</sup>199</p>
+                        <p class="plans__info__saving">*Exclusive for the first 100 customers with special price</p>
+                        <button class="plans__info__ca">Choose this<span></span></button>
+                    </div>
+                </article>
+            </section>            
+        </section>
+    </main>
+    <footer>
+        <section class="footer_left">
+            <ul>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Crunchbase</a></li>
+                <li><a href="#">Hackernews</a></li>
+            </ul>
+        </section>
+        <section class="footer_right">
+            <img src="./Assets/imgs/logo-footer.svg" alt="Monekybit logo 2024">
+        </section>
+    </footer>
